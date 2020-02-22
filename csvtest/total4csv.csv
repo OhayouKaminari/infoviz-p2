@@ -1,43 +1,43 @@
-;happinessVery;happinessQuite;artBelong;environmentBelong;unionBelong;politicalBelong;professionalBelong;religiousBelong;sportBelong;otherBelong
-Average;29;51;14.1;6.2;10;8.7;8.3;26.5;15.9;5.9
-Albania;9.7;49.1;13.5;10.4;9.4;14.5;10.8;20.4;10.6;5.2
-Algeria;16.1;64.6;11.9;4.4;null;5.6;8.7;7.3;14.4;null
-Argentina;33;48.4;9.2;2.2;2.5;4.5;1.8;15.7;7.6;4
-Bangladesh;14.8;62.6;29.5;20.3;14.8;23.5;20.5;43.3;24.9;1.6
-Bosnia Herzegovina;21.7;60.2;4.1;1.9;6.8;7.1;2.4;8;11.3;3.1
-Canada;44;51.6;21.4;9.1;14.4;6.3;17.9;29.5;27.5;11.2
-Chile;36;43.9;9;3;3;2.4;3.5;20.7;14.9;1.4
-China;11.5;66.3;2.2;1.2;6.9;8.3;1.2;3.6;3.2;0
-India;25.3;47.6;14.7;7;8.1;11.4;9.2;17.7;11;6.5
-Indonesia;20.5;74;null;null;null;null;null;null;null;null
-Iran;23;34.6;null;null;null;null;null;null;null;null
-Iraq;13.2;49;null;null;null;null;null;null;null;null
-Israel;27.2;50.2;null;null;null;null;null;null;null;null
-Japan;27.8;58.7;11;3.2;6.5;3.5;4.8;10.6;14.1;6.9
-Jordan;12.8;70.1;null;null;null;null;null;null;null;null
-South Korea;9.6;78.1;19.1;6.2;5.6;2.7;8.8;42.1;24.7;null
-Kyrgyzstan;19.8;64.1;10.8;2.6;11.8;1.6;5.8;5.1;7.5;6.1
-Mexico;56.5;34.5;7.7;4.5;5.7;3.9;2.7;23.3;8.7;1.1
-Moldova;6;43.4;12.4;4.6;14.5;5.4;7.3;14.4;5.5;2.8
-Morocco;22.3;57.6;3.4;0.5;0.8;1.2;2.7;0.7;5;0.6
-Nigeria;66.8;25;null;null;null;null;null;null;null;null
-Pakistan;19.6;56;null;null;null;null;null;null;null;null
-Peru;30.8;35.3;12.8;3.1;4.5;4.7;5.8;25.4;11.4;0.1
-Philippines;38.4;49.2;5.4;8;4;4.1;4;30.8;12.3;4.2
-Puerto Rico;53.3;40.7;13.2;3.8;4.4;6.2;10.6;41.5;8.1;4.9
-Saudi Arabia;44.3;47;null;null;null;null;null;null;null;null
-Singapore;28.7;66.1;14;1;4.3;0.4;4.4;19.7;15.2;3.7
-Vietnam;48.6;42.8;17.3;7.6;11.3;28.5;13.3;10.4;19.2;3.7
-South Africa;38.5;38.8;17.2;4.1;9.6;12;5.5;54.4;23.8;9.4
-Zimbabwe;19.9;35.3;7.1;2.4;3.3;6.9;4.2;75.8;8.2;1.4
-Spain;20.1;66.9;6.1;1.7;4;1.4;1.8;7.3;7.1;0.6
-Sweden;36.6;56.8;26.3;11.3;63.9;10.5;14.4;71.4;37;24.9
-Turkey;34.5;42.5;null;null;null;null;null;null;null;null
-Uganda;26.2;52.6;21.4;10.1;6.8;9.2;9.1;41.6;24;6.5
-Macedonia;19.1;55.5;11.7;4.9;6;11.5;6.7;10.9;12.9;7.7
-Egypt;18.1;71.3;null;null;null;null;null;null;null;null
-Tanzania;56.2;36.9;27.9;20.1;28.5;26.2;23;56.9;29.2;17.8
-United States;39;54;37.3;15.6;13.6;19.2;28;57.1;36;21.8
-Venezuela;56.8;29.5;17.8;11.9;3;3.9;9.2;22.9;21.1;0.7
-Serbia;12;61.5;2.8;0.8;13.6;5.8;2.5;2.8;8.1;3.5
-Montenegro;8.1;57.2;9.2;4.4;15.9;19.8;5.7;3.3;11.2;4.3
+Country,happinessVery,happinessQuite,artBelong,environmentBelong,unionBelong,politicalBelong,professionalBelong,religiousBelong,sportBelong,otherBelong
+Average,29,51,14.1,6.2,10,8.7,8.3,26.5,15.9,5.9
+Albania,9.7,49.1,13.5,10.4,9.4,14.5,10.8,20.4,10.6,5.2
+Algeria,16.1,64.6,11.9,4.4,null,5.6,8.7,7.3,14.4,null
+Argentina,33,48.4,9.2,2.2,2.5,4.5,1.8,15.7,7.6,4
+Bangladesh,14.8,62.6,29.5,20.3,14.8,23.5,20.5,43.3,24.9,1.6
+Bosnia Herzegovina,21.7,60.2,4.1,1.9,6.8,7.1,2.4,8,11.3,3.1
+Canada,44,51.6,21.4,9.1,14.4,6.3,17.9,29.5,27.5,11.2
+Chile,36,43.9,9,3,3,2.4,3.5,20.7,14.9,1.4
+China,11.5,66.3,2.2,1.2,6.9,8.3,1.2,3.6,3.2,0
+India,25.3,47.6,14.7,7,8.1,11.4,9.2,17.7,11,6.5
+Indonesia,20.5,74,null,null,null,null,null,null,null,null
+Iran,23,34.6,null,null,null,null,null,null,null,null
+Iraq,13.2,49,null,null,null,null,null,null,null,null
+Israel,27.2,50.2,null,null,null,null,null,null,null,null
+Japan,27.8,58.7,11,3.2,6.5,3.5,4.8,10.6,14.1,6.9
+Jordan,12.8,70.1,null,null,null,null,null,null,null,null
+South Korea,9.6,78.1,19.1,6.2,5.6,2.7,8.8,42.1,24.7,null
+Kyrgyzstan,19.8,64.1,10.8,2.6,11.8,1.6,5.8,5.1,7.5,6.1
+Mexico,56.5,34.5,7.7,4.5,5.7,3.9,2.7,23.3,8.7,1.1
+Moldova,6,43.4,12.4,4.6,14.5,5.4,7.3,14.4,5.5,2.8
+Morocco,22.3,57.6,3.4,0.5,0.8,1.2,2.7,0.7,5,0.6
+Nigeria,66.8,25,null,null,null,null,null,null,null,null
+Pakistan,19.6,56,null,null,null,null,null,null,null,null
+Peru,30.8,35.3,12.8,3.1,4.5,4.7,5.8,25.4,11.4,0.1
+Philippines,38.4,49.2,5.4,8,4,4.1,4,30.8,12.3,4.2
+Puerto Rico,53.3,40.7,13.2,3.8,4.4,6.2,10.6,41.5,8.1,4.9
+Saudi Arabia,44.3,47,null,null,null,null,null,null,null,null
+Singapore,28.7,66.1,14,1,4.3,0.4,4.4,19.7,15.2,3.7
+Vietnam,48.6,42.8,17.3,7.6,11.3,28.5,13.3,10.4,19.2,3.7
+South Africa,38.5,38.8,17.2,4.1,9.6,12,5.5,54.4,23.8,9.4
+Zimbabwe,19.9,35.3,7.1,2.4,3.3,6.9,4.2,75.8,8.2,1.4
+Spain,20.1,66.9,6.1,1.7,4,1.4,1.8,7.3,7.1,0.6
+Sweden,36.6,56.8,26.3,11.3,63.9,10.5,14.4,71.4,37,24.9
+Turkey,34.5,42.5,null,null,null,null,null,null,null,null
+Uganda,26.2,52.6,21.4,10.1,6.8,9.2,9.1,41.6,24,6.5
+Macedonia,19.1,55.5,11.7,4.9,6,11.5,6.7,10.9,12.9,7.7
+Egypt,18.1,71.3,null,null,null,null,null,null,null,null
+Tanzania,56.2,36.9,27.9,20.1,28.5,26.2,23,56.9,29.2,17.8
+United States,39,54,37.3,15.6,13.6,19.2,28,57.1,36,21.8
+Venezuela,56.8,29.5,17.8,11.9,3,3.9,9.2,22.9,21.1,0.7
+Serbia,12,61.5,2.8,0.8,13.6,5.8,2.5,2.8,8.1,3.5
+Montenegro,8.1,57.2,9.2,4.4,15.9,19.8,5.7,3.3,11.2,4.3
