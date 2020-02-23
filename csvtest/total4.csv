@@ -1,5 +1,5 @@
-Country,happinessVery,happinessQuite,artBelong,environmentBelong,unionBelong,politicalBelong,professionalBelong,religiousBelong,sportBelong,otherBelong
-Average,29,51,14.1,6.2,10,8.7,8.3,26.5,15.9,5.9
+Country,Region,happinessVery,happinessQuite,artBelong,environmentBelong,unionBelong,politicalBelong,professionalBelong,religiousBelong,sportBelong,otherBelong
+Average,Average,29,51,14.1,6.2,10,8.7,8.3,26.5,15.9,5.9
 Albania,9.7,49.1,13.5,10.4,9.4,14.5,10.8,20.4,10.6,5.2
 Algeria,16.1,64.6,11.9,4.4,null,5.6,8.7,7.3,14.4,null
 Argentina,33,48.4,9.2,2.2,2.5,4.5,1.8,15.7,7.6,4
