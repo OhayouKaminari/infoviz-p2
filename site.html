@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>IVIS-P2</title>
+</head>
+<body>
+    <div><h1 style="text-align: center;">Visualizing the World Through its Own Worldview</h1></div>
+    <p>With an increasing number of stories about people living in solitude (e.g. hikikomori, or people not being found in their homes until several days after being injured, or even years after dying), I want to explore the theme of <i>loneliness</i>.</p>
+    <p>There’s no WVS data explicitly investigating this topic, but perhaps there’s a link between <i>happiness</i> and being a <i>member of an organization</i>, which would necessitate having relationships with others?</p><p>Some memberships are likely less ‘intimate’ (e.g. political party), and the questions on <i>voluntary work</i> found in wave 4 would’ve been a better alternative, but these are not present in the other waves.</p>
+    <div><h2 style="text-align: left;">WVS Discovery Process</h2></div>
+    <p>After selecting a wave period and countries, we can filter on specific questions and look at that data.</p>
+    <div class="row">
+        <img src="1selectwave.png" align="top" width="400" height="auto">
+        <img src="2selectcountry.png" width="400" height="auto">
+    </div>
+    <div class="row">
+        <img src="3happyquestions.png" align="top" width="400" height="auto">
+        <img src="4memberquestions.png" width="400" height="auto">
+    </div>
+    <p>The tabular data is difficult to keep track of when comparing multiple countries, but using the heatmap version makes this easier.</p>
+    <div class="row">
+        <img src="5happytables.png" width="400" height="auto">
+        <img src="6happymap.png" width="400" height="auto">
+    </div>
+    <div class="row">
+        <img src="7religiontables.png" width="400" height="auto">
+        <img src="8religionmap.png" width="400" height="auto">
+    </div>
+    <p>From looking through the data and tediously repeating all steps for each wave and question, there doesn’t seem to be much of a correlation between happiness and memberships going on.</p>
+    <p>But perhaps some types of organizations are more common than others? Since we cannot view multiple attributes/answers at the same time, a redesign of the data visualization is warranted.</p>
+    <div><h2 style="text-align: left;">Suggested application (static, d3 used for images, see working visualizations in links)</h2></div>
+    <p>This suggested visualization combines a <a href="https://vizhub.com/OhayouKaminari/185e660c53da40e7810706fcab3a39c0">zoomable world map</a> and <a href="https://vizhub.com/OhayouKaminari/8c983a355aa8420886bb1624ec531b4c">parallel coordinates</a> to provide an overview of answers from the countries in a wave (<a href="https://github.com/OhayouKaminari/infoviz-p2/tree/master/csvtest">csv waves data</a>).</p><p>The intention is to also present answers in a stacked bar chart (Excel image) for each individual country upon selecting it.</p><p>All bars use combined answers (“quite/very happy” and “active/inactive member”), except those from wave 4 describing memberships (which have “belong” as the only affirmative option), and the distribution of the different answers would correspond to the different stacks on each bar.</p>
+    <div><img src="prototype.png" width="1400" height="auto"></div>
+    <div><h2 style="text-align: left;">Suggested discovery process</h2></div>
+    <p>All parallel axes go from 0-100% to give a more correct overview.<p>Switching their places and brushing (and here only looking at the parallel coordinates for one wave), we can see e.g. that three of the ‘happiest’ nations are among those with the highest percentage of memberships in religious organizations, while the one with the most such memberships has the second to least amount of happy citizens. Here, the filtered countries should be highlighted on the world map. </p><p>One of the happiest nations also has the highest percentage of union members.</p>
+    <div><img src="parallelbrushing.png" width="800" height="auto"></div>
+    <p>Selecting a country, we can see its data for the selected wave both in the parallel coordinates overview and in the detailed bar chart.</p>
+    <div><img src="moldovaselected.png" width="1400" height="auto"></div>
+    <div><h3 style="text-align: left;">Learning</h3></div>
+    <p>The main takeaway from this project is realizing how important scripts for mundane, robot-like tasks can be.</p><p>I spent most of my time downloading and arranging the WVS data, and although I learned some Excel functions and how to handle csv files, tweaking more d3 code would have been much more valuable. I did do some of this, including writing/copying the world map code from scratch, as well as dusting off my very basic knowledge of HTML.</p><p>The tedious data retrieval process has also highlighted how difficult it is to understand data without good visualizations, when it’s buried in a landfill of files.</p>
+    <div><h3 style="text-align: left;">Credits</h3></div>
+    World Map code by <a href="https://www.youtube.com/watch?v=_8V5o2UHG0E">Curran Kelleher</a>. Parallel coordinates adapted from example by <a href="https://bl.ocks.org/jasondavies/1341281">Jason Davies</a>.
+</body>
+
+</html>
